@@ -30,7 +30,7 @@ public class BowlingGameTest {
     }
     
     @Test
-    public void testAllStrike() {
+    public void testAllSpares() {
     	assertEquals(150, bowling.fetchScore("5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/5"));
     }
     
